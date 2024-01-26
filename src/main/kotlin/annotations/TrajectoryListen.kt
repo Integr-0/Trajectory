@@ -1,3 +1,3 @@
 package annotations
 
-annotation class TrajectoryListen
+annotation class TrajectoryListen(val priority: TrajectoryPriority = TrajectoryPriority.NORMAL)
